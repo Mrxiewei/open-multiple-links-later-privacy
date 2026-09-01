@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CharlieLinks 隐私政策（Microsoft Edge 加载项版）</title>
+  <style>
+    :root { --primary: #2f6bff; --text: #1a1d24; --muted: #737a8c; --bg: #f6f8fc; --card: #fff; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: -apple-system, "Segoe UI", "Microsoft YaHei", Roboto, "Helvetica Neue", Arial, sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; font-size: 15px; }
+    .wrap { max-width: 760px; margin: 0 auto; padding: 24px 16px 48px; }
+    header { background: linear-gradient(135deg, #0078d4, #7a5cff); color: #fff; border-radius: 14px; padding: 22px 24px; margin-bottom: 20px; }
+    header h1 { margin: 0 0 6px; font-size: 22px; }
+    header p { margin: 0; opacity: .92; font-size: 13px; }
+    .edge-tag { display: inline-block; background: rgba(255,255,255,.2); padding: 3px 10px; border-radius: 999px; font-size: 12px; margin-top: 8px; }
+    .card { background: var(--card); border: 1px solid #e7eaf2; border-radius: 12px; padding: 18px 20px; margin-bottom: 14px; }
+    h2 { font-size: 17px; margin: 0 0 10px; color: var(--primary); }
+    ul { margin: 8px 0; padding-left: 20px; }
+    li { margin: 4px 0; }
+    code { background: #eef1f7; padding: 1px 5px; border-radius: 4px; font-size: 13px; }
+    .note { background: #fff7e6; border-left: 4px solid #ffb020; padding: 10px 14px; border-radius: 6px; margin: 12px 0; font-size: 14px; }
+    footer { text-align: center; color: var(--muted); font-size: 13px; margin-top: 18px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>CharlieLinks 隐私政策</h1>
+      <p>Privacy Policy · Microsoft Edge Add-ons 版 · 生效日期：2026 · 版本 v1.1.2</p>
+      <span class="edge-tag">本版本适用于通过 Microsoft Edge 加载项商店分发 / 在 Microsoft Edge 浏览器中使用</span>
+    </header>
+
+    <section class="card">
+      <h2>概述</h2>
+      <p>CharlieLinks 是一款基于 Chromium 的浏览器扩展（Manifest V3），定位为<strong>本地运行的 URL 管理工具</strong>，用于「URL 提纯、批量打开、标签页 URL 管理」。本版本适用于 Microsoft Edge 浏览器及 Edge 加载项商店。</p>
+    </section>
+
+    <section class="card">
+      <h2>我们收集什么？</h2>
+      <p><strong>我们不会收集任何个人数据。</strong></p>
+      <p>本插件（含 Edge 版本）不采集、不存储、不传输、不共享、不出售任何用户信息，包括但不限于：</p>
+      <ul>
+        <li>浏览历史</li>
+        <li>粘贴或输入的文本 / URL</li>
+        <li>设备信息</li>
+        <li>位置</li>
+        <li>账号或凭据</li>
+        <li>Cookie 或站点数据</li>
+        <li>任何统计数据、匿名分析或埋点</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>数据如何被处理？</h2>
+      <p>本插件的所有数据处理均<strong>完全在您的本地浏览器内完成</strong>：</p>
+      <ul>
+        <li>「提纯」「批量打开」「去除重复项」仅在本机运行，处理结果不会离开您的浏览器。</li>
+        <li>「复制标签页 URL」只是将当前窗口已存在标签页的地址复制到您本机剪贴板。</li>
+        <li>设置与输入通过 <code>chrome.storage</code> / <code>browser.storage</code> 保存在您本地浏览器，仅用于恢复您的偏好与内容。</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>何时会联网？</h2>
+      <p><strong>不会。</strong> 本插件不包含任何网络请求逻辑，不连接任何服务器，不上传任何内容。</p>
+    </section>
+
+    <section class="card">
+      <h2>权限使用</h2>
+      <p>本插件（Edge 版本与 Chrome 版本代码一致）仅申请实现功能所必需的最小权限：</p>
+      <ul>
+        <li><code>tabs</code> —— 读取当前窗口标签页 URL，用于「复制所有标签页 URL」。</li>
+        <li><code>storage</code> —— 在本机保存您的设置、输入与任务进度。</li>
+        <li><code>notifications</code> —— 批量全部完成后发送一条本地完成通知。</li>
+        <li><code>alarms</code> —— 用于在其后安排下一次批量打开的唤醒，确保后台任务被按时推进。</li>
+      </ul>
+      <p>这些权限均不涉及数据外传。</p>
+    </section>
+
+    <section class="card">
+      <h2>第三方</h2>
+      <p>本插件不调用任何第三方服务、SDK、广告或分析工具。</p>
+    </section>
+
+    <section class="card">
+      <h2>变更</h2>
+      <p>如本政策未来发生变化，会在本页面更新并同步插件版本号。</p>
+    </section>
+
+    <section class="card">
+      <h2>联系</h2>
+      <p>如需就隐私或合规事宜联系作者，请通过 Microsoft Edge 加载项商店页面上公布的联系方式咨询。</p>
+    </section>
+
+    <div class="note">CharlieLinks 尊重您的隐私。所有功能均要求「本地处理、零上传、零收集」。</div>
+
+    <footer>CharlieLinks · 隐私政策（Microsoft Edge 加载项版）· 本地运行 · 不收集数据</footer>
+  </div>
+</body>
+</html>
