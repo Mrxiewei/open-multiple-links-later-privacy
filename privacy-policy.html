@@ -7,50 +7,32 @@
   <style>
     :root { --primary: #2f6bff; --text: #1a1d24; --muted: #737a8c; --bg: #f6f8fc; --card: #fff; }
     * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      font-family: -apple-system, "Segoe UI", "Microsoft YaHei", Roboto, "Helvetica Neue", Arial, sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      line-height: 1.7;
-      font-size: 15px;
-    }
+    body { margin: 0; font-family: -apple-system, "Segoe UI", "Microsoft YaHei", Roboto, "Helvetica Neue", Arial, sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; font-size: 15px; }
     .wrap { max-width: 760px; margin: 0 auto; padding: 24px 16px 48px; }
-    header {
-      background: linear-gradient(135deg, #2f6bff, #7a5cff);
-      color: #fff;
-      border-radius: 14px;
-      padding: 22px 24px;
-      margin-bottom: 20px;
-    }
+    header { background: linear-gradient(135deg, #2f6bff, #7a5cff); color: #fff; border-radius: 14px; padding: 22px 24px; margin-bottom: 20px; }
     header h1 { margin: 0 0 6px; font-size: 22px; }
     header p { margin: 0; opacity: .92; font-size: 13px; }
-    .card {
-      background: var(--card);
-      border: 1px solid #e7eaf2;
-      border-radius: 12px;
-      padding: 18px 20px;
-      margin-bottom: 14px;
-    }
+    .stores { display: inline-block; background: rgba(255,255,255,.2); padding: 3px 10px; border-radius: 999px; font-size: 12px; margin-top: 8px; }
+    .card { background: var(--card); border: 1px solid #e7eaf2; border-radius: 12px; padding: 18px 20px; margin-bottom: 14px; }
     h2 { font-size: 17px; margin: 0 0 10px; color: var(--primary); }
     ul { margin: 8px 0; padding-left: 20px; }
     li { margin: 4px 0; }
     code { background: #eef1f7; padding: 1px 5px; border-radius: 4px; font-size: 13px; }
     .note { background: #fff7e6; border-left: 4px solid #ffb020; padding: 10px 14px; border-radius: 6px; margin: 12px 0; font-size: 14px; }
     footer { text-align: center; color: var(--muted); font-size: 13px; margin-top: 18px; }
-    a { color: var(--primary); }
   </style>
 </head>
 <body>
   <div class="wrap">
     <header>
       <h1>CharlieLinks 隐私政策</h1>
-      <p>Privacy Policy · 生效日期：2026 · 当前版本 v1.1.2</p>
+      <p>Privacy Policy · 生效日期：2026 · 版本 v1.1.2</p>
+      <span class="stores">本政策同时适用于 Google Chrome 与 Microsoft Edge</span>
     </header>
 
     <section class="card">
       <h2>概述</h2>
-      <p>CharlieLinks 是一款 Chrome 浏览器扩展（Manifest V3），定位为<strong>本地运行的 URL 管理工具</strong>，用于「URL 提纯、批量打开、标签页 URL 管理」。</p>
+      <p>CharlieLinks 是一款基于 Chromium 的浏览器扩展（Manifest V3），定位为<strong>本地运行的 URL 管理工具</strong>，用于「URL 提纯、批量打开、标签页 URL 管理」。本政策同时适用于通过 <strong>Google Chrome Web Store</strong> 与 <strong>Microsoft Edge 加载项商店</strong>分发的版本。</p>
     </section>
 
     <section class="card">
@@ -74,7 +56,7 @@
       <ul>
         <li>「提纯」「批量打开」「去除重复项」仅在本机运行，处理结果不会离开您的浏览器。</li>
         <li>「复制标签页 URL」只是将当前窗口已存在标签页的地址复制到您本机剪贴板。</li>
-        <li>设置与输入通过 <code>chrome.storage</code> 保存在您本地浏览器，仅用于恢复您的偏好与内容。</li>
+        <li>设置与输入通过浏览器本地存储（<code>chrome.storage</code> / <code>browser.storage</code>）保存在您本地，仅用于恢复您的偏好与内容。</li>
       </ul>
     </section>
 
@@ -107,12 +89,12 @@
 
     <section class="card">
       <h2>联系</h2>
-      <p>如需就隐私或合规事宜联系作者，请通过 Chrome 网上应用店页面上公布的联系方式咨询。</p>
+      <p>如需就隐私或合规事宜联系作者，请通过 <strong>Google Chrome Web Store</strong> 或 <strong>Microsoft Edge 加载项商店</strong>页面上公布的联系方式咨询。</p>
     </section>
 
     <div class="note">CharlieLinks 尊重您的隐私。所有功能均要求「本地处理、零上传、零收集」。</div>
 
-    <footer>CharlieLinks · 隐私政策 · 本地运行 · 不收集数据</footer>
+    <footer>CharlieLinks · 隐私政策（Chrome &amp; Edge 通用）· 本地运行 · 不收集数据</footer>
   </div>
 </body>
 </html>

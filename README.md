@@ -1,14 +1,18 @@
 # CharlieLinks 隐私政策（CharlieLinks Privacy Policy）
 
-本仓库用于公开托管 CharlieLinks 浏览器扩展（Chrome / Edge，Manifest V3）的**隐私政策**。
+本仓库用于公开托管 CharlieLinks 浏览器扩展（Chromium，Manifest V3）的**隐私政策**。
 
-## 公开访问地址
+本政策**同时适用于 Google Chrome 与 Microsoft Edge**，两个商店的「隐私政策 URL」使用**同一个地址**。
+
+## 公开访问地址（Chrome 与 Edge 共用）
 
 ```
 https://Mrxiewei.github.io/CharlieLinks-privacy/privacy-policy.html
 ```
 
-> 该地址用于 Chrome 网上应用店「隐私政策 URL」一栏，以及在 Microsoft Edge 加载项商店填写。
+> 该地址用于：
+> - Google Chrome 网上应用店「隐私政策 URL」一栏；
+> - Microsoft Edge 加载项商店「隐私政策 URL」一栏。
 
 ## 内容
 
